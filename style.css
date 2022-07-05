@@ -7,7 +7,7 @@ body {
     background-image: url("images/bg-pattern-top-desktop.svg"),url("images/bg-pattern-bottom-desktop.svg");
     background-size: 40%,80%;
     background-repeat: no-repeat;
-    background-position: top left, bottom -4rem right;
+    background-position: top right, bottom  right;
 }
 
 header ,main,footer{
@@ -39,6 +39,8 @@ h1,h4{
 @media (min-width: 1000px) {
     body {
         padding: 4% 10%;
+        background-size: 40%,80%;
+        background-position: top left, bottom -4rem right;
     }
     .header-main-container {
         
